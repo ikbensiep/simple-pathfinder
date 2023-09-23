@@ -66,7 +66,7 @@ export default class Game {
     
     // then draw track waypoints on top
     this.waypoints.forEach((point, index) => {
-      if (index % 2) point.draw(context);
+      point.draw(context);
     })
 
     // then update & draw player on top of that
@@ -131,7 +131,7 @@ export default class Game {
 
   createPathWaypoints () {
     const svg = document.querySelector('object');
-    let path = svg.contentDocument.querySelector('#trackpath-monza');
+    let path = svg.contentDocument.querySelector('#trackpath-suzuka');
     const points = Math.floor(path.getTotalLength());
     
 
