@@ -1,10 +1,10 @@
 # simple-pathfinder
-A simple javascript game 
-
-player entity 
-waypoints entities
-
+## A simple javascript game 
 player finds target waypoints in sequence and moves towards each target in sequence 
+
+- [x] 1. player entity
+- [x] 2. (but actually way more) waypoint entities
+- [ ] 3. world
 
 ![image](https://github.com/ikbensiep/simple-pathfinder/assets/5741190/56c1aa10-5253-4dd0-917e-bcca124001d8)
 
