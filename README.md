@@ -11,8 +11,10 @@ player finds target waypoints in sequence and moves towards each target in seque
 # next 👞 👞
 
 ## with that out of the way 
-- [ ] let's fetch an .svg file
-- [ ] find a certain path in it (ie, the racetrack)
-- [ ] use path.getTotalLength() method to find waypoints (every node in a path is a waypoint)
-- [ ] traverse the track one waypoint at a time
+- [x] let's fetch an .svg file
+- [x] find a certain path in it (ie, the racetrack)
+- [x] use path.getTotalLength() method to find waypoints (every node in a path is a waypoint)
+- [x] traverse the track one waypoint at a time
 - [ ] AI: done
+
+![image](https://github.com/ikbensiep/simple-pathfinder/assets/5741190/d93b2b35-d1a5-4248-87a4-d1360b14b11c)
