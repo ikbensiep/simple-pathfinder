@@ -10,8 +10,10 @@ export default class Waypoint {
       y: origin.y || (Math.random() * this.game.height)
     };
     
-    // draw style for waypoint //
+    // initialize radius value
     this.collisionRadius = 10;
+    
+    // draw style for waypoint 
     this.strokeStyle = 'orange';
     this.fillStyle = 'white';
 

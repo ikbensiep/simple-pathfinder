@@ -8,16 +8,15 @@ window.addEventListener('load', () => {
   canvas.height = canvasRekt.height;
   
   const game = new Game(canvas);
-  game.init();
-  
-  console.log(game);
   
   const animate = () => {
     ctx.clearRect(0, 0, game.width, game.height)
     game.render(ctx);
     requestAnimationFrame(animate);
   }
-
+  
+  game.init();
+  console.log(game);
+  
   animate(0);
-
 });
