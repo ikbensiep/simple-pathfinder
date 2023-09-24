@@ -1,4 +1,8 @@
 # simple-pathfinder
+
+### 💻 run
+`npx serve` 
+
 ## A simple javascript game 
 player finds target waypoints in sequence and moves towards each target in sequence 
 
