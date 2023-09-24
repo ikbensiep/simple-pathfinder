@@ -72,6 +72,7 @@ export default class Game {
     // then update & draw player on top of that
     this.player.update();
     this.player.draw(context);
+    window.scrollTo(this.player.origin.x - window.innerWidth / 2, this.player.origin.y - window.innerHeight / 2);
   }
 
   init () {
@@ -131,7 +132,7 @@ export default class Game {
 
   createPathWaypoints () {
     const svg = document.querySelector('object');
-    let path = svg.contentDocument.querySelector('#trackpath-suzuka');
+    let path = svg.contentDocument.querySelector('#trackpath-monza');
     const points = Math.floor(path.getTotalLength());
     
 
